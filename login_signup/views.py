@@ -25,7 +25,7 @@ def signupAction(request):
         cmd = "insert into users Values('{}','{}','{}','{}')".format(fn,ln,em,pwd)
         cursor.execute(cmd)
         m.commit()
-        return render(request,'index.html')
+        return render(request,'home.html')
 
     return render(request,'signup.html')
 
@@ -47,7 +47,7 @@ def loginAction(request):
             return render(request,'login.html',{'error':True})
         else:
         
-            return render(request,'index.html')
+            return render(request,'home.html')
 
     return render(request,'login.html')
 
