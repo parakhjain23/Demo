@@ -1,4 +1,4 @@
 # demo
-python project "MP Tourism"
+python (Django based) project "MP Tourism"
 Link: 
-https://parakhjain23.github.io/MP-Tourism/
+(index Page):-https://parakhjain23.github.io/MP-Tourism/
